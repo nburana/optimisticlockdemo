@@ -8,7 +8,7 @@ Start up your Spring Boot app by running the `server.sh` file.
 During startup, Spring Boot will initialize an in memory database and create our products table for us.  It will also insert a record for to work with.
 
 ## Database console access
-The database can be accessed through the browser at http://localhost:8080/h2-console.  No password necessary.  This database servesboth the JPA and Custom implmentation examples.
+The database can be accessed through the browser at [http://localhost:8080/h2-console](http://localhost:8080/h2-console).  No password necessary.  This database serves both the JPA and JDBC examples.
 
 ## Running the JPA based example
 To run the JPA example, execute `scripts/test-jpa.py`
